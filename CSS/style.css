@@ -1,0 +1,44 @@
+/* All Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    ol,ul{
+        list-style-type: none;
+    }
+    .container{
+    width: 1320px;
+    margin: 0 auto;
+}
+}
+ /* All Common CSS end  */
+
+
+
+
+
+#header{
+    padding: 50px 0;
+    background: #222831;
+
+}
+
+.menu ul{
+    display: flex;
+gap: 48px;
+}
+.menuFlex{
+    display: flex;
+    align-items: center;justify-content: space-between;
+}
+.menu ul li{
+     font-family: "Roboto", sans-serif; 
+     font-weight: 400;
+     font-size: 18px;
+     color: #EEEEEE;
+}
+
+
+
+
+
+
