@@ -2,6 +2,8 @@
 *{
     margin: 0;
     padding: 0;
+   
+       
     ol,ul{
         list-style-type: none;
     }
@@ -9,17 +11,21 @@
     width: 1320px;
     margin: 0 auto;
 }
+    a{
+        text-decoration: none;
+
+}
 }
  /* All Common CSS end  */
 
 
-
+/* Header Part Done  */
 
 
 #header{
     padding: 50px 0;
-    background: #222831;
-
+      background: #222831;
+    border-bottom: 1px solid #eeeeee18;
 }
 
 .menu ul{
@@ -30,12 +36,71 @@ gap: 48px;
     display: flex;
     align-items: center;justify-content: space-between;
 }
-.menu ul li{
-     font-family: "Roboto", sans-serif; 
+.menu ul li a{
+    font-family: "Roboto", sans-serif;
      font-weight: 400;
      font-size: 18px;
      color: #EEEEEE;
 }
+/* Header Part Done  */
+
+#bannerPart{
+  padding-top: 163px;
+  padding-bottom: 100px;
+  background: #222831;
+}
+.bannerContent{
+    display: flex;
+    gap: 100px;
+    position: relative;
+}
+.bannerContentLeft{
+    margin-top:49 ;
+    margin-left: 30px;
+}
+.bannerContent .icon{
+   position: absolute;
+top: 50px;
+left: -50px;
+   
+}
+.bannerContentLeft h1 {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 106px;
+    color: #EEEEEE;
+    width:586px;
+
+}
+.bannerContentLeft h1 span{
+    color: #00ADB5;
+}
+.bannerBtn{
+    display: flex;
+    gap: 200px;
+}
+.bannerBtn button{
+    background-color: #00ADB5;
+    padding: 10px 32px;
+    border: none;
+    border-radius: 24px;
+   
+  
+}
+.bannerBtn button a{
+  font-weight: 700;
+  font-size: 18px;
+  color: #EEEEEE;
+  text-shadow:0px 4px 4px #000000;
+}
+.bannerBtn button:hover{
+    background-color: rgba(57, 62, 70, 0.75);
+    transition: all linear.3s;
+
+}
+
+
+
 
 
 
